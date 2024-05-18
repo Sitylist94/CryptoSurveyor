@@ -1,6 +1,8 @@
 @font-face {
     font-family: Inter-Regular;
     src: url(../fonts/Inter-Regular.ttf);
+    font-family: Poetsen;
+    src: url(../fonts/PoetsenOne-Regular.ttf);
   }
 
 * {
