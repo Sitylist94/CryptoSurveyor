@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter-Regular.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter-Regular;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.navbar a {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+
+
+.Bitcoin-img {
+    width: 50%;
+    height: 50%;
+}
