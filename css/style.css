@@ -15,6 +15,7 @@ body {
   background: #212529;
 }
 
+
 .navbar {
   display: flex;
   align-items: center;
@@ -24,7 +25,7 @@ body {
 }
 
 .navbar h2 {
-  color: #ffb742;
+  color: #0fae96;
   font-weight: 600;
 }
 
@@ -38,14 +39,14 @@ body {
 
 .navbar ul li a {
   text-decoration: none;
-  color: #fff;
+  color: darkgray;
   font-size: 1.1rem;
   margin-right: 25px;
   transition: color 0.3s ease;
 }
 
 .navbar ul li:hover a {
-  color: #ffb742;
+  color: #0fae96;
 }
 
 .navbar ul li:last-child a {
@@ -53,7 +54,8 @@ body {
 }
 
 .login {
-  background: #ffb742;
+  background: #0fae96;
+  color: #fff;
   padding: 6px 30px;
   border: none;
   font-size: 1.1rem;
@@ -62,6 +64,36 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.login:hover {
-  background: #fb8c00;
+
+.title{
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.section1 {
+  padding: 100px 0 0 0;
+}
+
+.describe {
+  text-align: center;
+  color: darkgrey;
+  padding: 10px;
+}
+
+.btn-scroll {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn-scroll button {
+  background: #0fae96;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
 }
