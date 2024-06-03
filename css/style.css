@@ -7,12 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;                                     
+    font-family: 'Poppins', sans-serif;
+    color: #fff;                                  
 }
 
 body {
   height: 100vh;
   background: #212529;
+  margin: 0 100px 0 100px;
+  background: linear-gradient(#330033, #000022);
 }
 
 
@@ -25,7 +28,6 @@ body {
 }
 
 .navbar h2 {
-  color: #0fae96;
   font-weight: 600;
 }
 
