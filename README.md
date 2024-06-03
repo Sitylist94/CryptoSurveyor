@@ -1,1 +1,1 @@
-# CryptoSurveyor 1.0.1
+# CryptoSurveyor 1.0.4
